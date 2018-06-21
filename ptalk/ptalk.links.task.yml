@@ -1,0 +1,19 @@
+ptalk.admin_form:
+  route_name: ptalk.admin_form
+  base_route: ptalk.admin_form
+  title: Settings
+
+entity.ptalk_thread.canonical:
+  route_name: entity.ptalk_thread.canonical
+  base_route: entity.ptalk_thread.canonical
+  title: View conversation
+
+entity.ptalk_thread.delete_form:
+  route_name: entity.ptalk_thread.delete_form
+  base_route: entity.ptalk_thread.canonical
+  title: Delete
+
+ptalk.user_conversations:
+  route_name: ptalk.user_conversations
+  base_route: entity.user.canonical
+  title: Private onversations

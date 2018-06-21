@@ -1,0 +1,9 @@
+entity.ptalk_thread.collection:
+  weight: -10
+  menu_name: account
+  class: Drupal\ptalk\Plugin\Menu\PtalkCollectionMenuLink
+entity.ptalk_thread.collection:
+  title: 'Private conversations'
+  route_name: entity.ptalk_thread.collection
+  description: 'Private conversations'
+  weight: 10
